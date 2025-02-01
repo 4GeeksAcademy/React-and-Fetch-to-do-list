@@ -9,3 +9,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.delete-btn {
+    display: none;
+  }
+  
+  .task-item:hover .delete-btn {
+    display: inline;
+  }
+  
