@@ -10,12 +10,11 @@
 
 */
 
+.task-item .delete-btn {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
 
-.delete-btn {
-    display: none;
-  }
-  
-  .task-item:hover .delete-btn {
-    display: inline;
-  }
-  
+.task-item:hover .delete-btn {
+  opacity: 1;
+}
